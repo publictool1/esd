@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Courier New", Courier, monospace;
 }
 
 header {
@@ -31,9 +30,6 @@ header .header-container nav ul li a {
   font-weight: bold;
   font-size: 16px;
 }
-header .header-container nav ul li a:hover {
-  color: #5B51DE;
-}
 header .header-container .buttons button {
   background-color: #5B51DE;
   color: #ffffff;
@@ -41,9 +37,6 @@ header .header-container .buttons button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-}
-header .header-container .buttons button:hover {
-  background-color: #40369E;
 }
 header .header-container .buttons button:last-child {
   margin-left: 10px;
@@ -67,9 +60,6 @@ header .header-container .buttons button:last-child {
   margin-right: 20px;
   font-size: 14px;
 }
-.site-footer .footer-container .quick-links a:hover {
-  text-decoration: underline;
-}
 .site-footer .footer-container .contact-info p {
   margin: 0;
   font-size: 14px;
@@ -80,9 +70,6 @@ header .header-container .buttons button:last-child {
   margin-left: 10px;
   color: #ffffff;
   text-decoration: none;
-}
-.site-footer .footer-container .social-icons a:hover {
-  text-decoration: underline;
 }
 
 .teachers {
@@ -98,22 +85,12 @@ h1 {
 
 .teachers-container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
 }
 
 .teacher-card {
-  max-width: 300px;
   margin: 20px;
   padding: 20px;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
-  transition: transform 0.3s ease-in-out;
-}
-.teacher-card:hover {
-  transform: scale(1.05);
 }
 .teacher-card img {
   width: 50%;
@@ -169,7 +146,4 @@ h1 {
   border-radius: 8px;
   transition: transform 0.3s ease-in-out;
   cursor: pointer;
-}
-.selection-criteria li:hover {
-  transform: scale(1.05);
 }/*# sourceMappingURL=teachers.css.map */

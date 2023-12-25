@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Courier New", Courier, monospace;
 }
 
 header {
@@ -31,9 +30,6 @@ header .header-container nav ul li a {
   font-weight: bold;
   font-size: 16px;
 }
-header .header-container nav ul li a:hover {
-  color: #5B51DE;
-}
 header .header-container .buttons button {
   background-color: #5B51DE;
   color: #ffffff;
@@ -41,9 +37,6 @@ header .header-container .buttons button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-}
-header .header-container .buttons button:hover {
-  background-color: #40369E;
 }
 header .header-container .buttons button:last-child {
   margin-left: 10px;
@@ -94,7 +87,6 @@ main .welcome .welcome-container .welcome-right .start input {
   margin-right: 10px;
 }
 main .welcome .welcome-container .welcome-right .start a {
-  text-decoration: none;
   background-color: #5B51DE;
   color: #ffffff;
   border: none;
@@ -102,9 +94,6 @@ main .welcome .welcome-container .welcome-right .start a {
   cursor: pointer;
   padding: 10px 20px;
   margin-right: 15px;
-}
-main .welcome .welcome-container .welcome-right .start a:hover {
-  background-color: #40369E;
 }
 main .learn {
   background-color: #ffffff;
@@ -136,7 +125,6 @@ main .learn .learn-container .learn-left p {
   margin-bottom: 20px;
 }
 main .learn .learn-container .learn-left a {
-  text-decoration: none;
   background-color: #5B51DE;
   color: #ffffff;
   border: none;
@@ -144,9 +132,6 @@ main .learn .learn-container .learn-left a {
   cursor: pointer;
   width: 30%;
   padding: 10px 20px;
-}
-main .learn .learn-container .learn-left a:hover {
-  background-color: #40369E;
 }
 main .learn .learn-container .learn-left .left-info p {
   font-size: 16px;
@@ -207,11 +192,6 @@ main .stats .stats-container p {
 main .rate {
   background-color: #ffffff;
   padding: 50px 0;
-}
-main .rate span {
-  color: #000000;
-  font-weight: bold;
-  font-size: 20px;
 }
 main .rate .rete-container {
   display: flex;
@@ -300,9 +280,6 @@ main .popular-courses .popular-courses-container .course-card a {
   cursor: pointer;
   transition: background-color 0.3s;
 }
-main .popular-courses .popular-courses-container .course-card a:hover {
-  background-color: #4237A1;
-}
 
 .site-footer {
   background-color: rgba(91, 81, 222, 0.8196078431);
@@ -322,9 +299,6 @@ main .popular-courses .popular-courses-container .course-card a:hover {
   margin-right: 20px;
   font-size: 14px;
 }
-.site-footer .footer-container .quick-links a:hover {
-  text-decoration: underline;
-}
 .site-footer .footer-container .contact-info p {
   margin: 0;
   font-size: 14px;
@@ -335,7 +309,4 @@ main .popular-courses .popular-courses-container .course-card a:hover {
   margin-left: 10px;
   color: #ffffff;
   text-decoration: none;
-}
-.site-footer .footer-container .social-icons a:hover {
-  text-decoration: underline;
 }/*# sourceMappingURL=style.css.map */

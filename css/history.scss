@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 header {
@@ -34,10 +33,6 @@ header {
             color: #000000;
             font-weight: bold;
             font-size: 16px;
-
-            &:hover {
-              color: #5B51DE;
-            }
           }
         }
       }
@@ -51,10 +46,6 @@ header {
         border: none;
         border-radius: 5px;
         cursor: pointer;
-
-        &:hover {
-          background-color: #40369E;
-        }
       }
 
       button:last-child {
@@ -82,10 +73,6 @@ header {
           text-decoration: none;
           margin-right: 20px;
           font-size: 14px;
-
-          &:hover {
-            text-decoration: underline;
-          }
         }
       }
 
@@ -103,10 +90,6 @@ header {
           margin-left: 10px;
           color: #ffffff;
           text-decoration: none;
-
-          &:hover {
-            text-decoration: underline;
-          }
         }
       }
     }
@@ -147,10 +130,6 @@ header {
                         color: #000000;
                         font-weight: bold;
                         font-size: 16px;
-
-                        &:hover {
-                            color: #5B51DE;
-                        }
                     }
                 }
             }
@@ -164,10 +143,6 @@ header {
                 border: none;
                 border-radius: 5px;
                 cursor: pointer;
-
-                &:hover {
-                    background-color: #40369E;
-                }
             }
 
             button:last-child {
@@ -195,10 +170,6 @@ header {
                 text-decoration: none;
                 margin-right: 20px;
                 font-size: 14px;
-
-                &:hover {
-                    text-decoration: underline;
-                }
             }
         }
 
@@ -216,10 +187,6 @@ header {
                 margin-left: 10px;
                 color: #ffffff;
                 text-decoration: none;
-
-                &:hover {
-                    text-decoration: underline;
-                }
             }
         }
     }
