@@ -25,7 +25,6 @@ header .header-container nav ul li {
   margin-right: 20px;
 }
 header .header-container nav ul li a {
-  text-decoration: none;
   color: #000000;
   font-weight: bold;
   font-size: 16px;
@@ -270,7 +269,6 @@ main .popular-courses .popular-courses-container .course-card p {
   margin-bottom: 20px;
 }
 main .popular-courses .popular-courses-container .course-card a {
-  text-decoration: none;
   background-color: #5B51DE;
   color: #ffffff;
   padding: 10px 20px;
@@ -295,7 +293,6 @@ main .popular-courses .popular-courses-container .course-card a {
 }
 .site-footer .footer-container .quick-links a {
   color: #ffffff;
-  text-decoration: none;
   margin-right: 20px;
   font-size: 14px;
 }
@@ -308,5 +305,4 @@ main .popular-courses .popular-courses-container .course-card a {
   display: inline-block;
   margin-left: 10px;
   color: #ffffff;
-  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
