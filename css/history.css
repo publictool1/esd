@@ -7,27 +7,26 @@
 header {
   padding: 25px 50px;
 }
-.header-container {
+.first {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-nav ul {
+ul {
   list-style: none;
   display: flex;
 }
 li {
   margin-right: 20px;
 }
-
-.site-footer {
+footer {
   background-color: rgba(91, 81, 222, 0.8196078431);
   color: #ffffff;
   padding: 25px 45px;
 }
 
-.footer-container {
+.footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
